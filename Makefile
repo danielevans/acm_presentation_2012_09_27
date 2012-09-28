@@ -1,6 +1,3 @@
-.SUFFIXES:
-.SUFFIXES: .in .out .cpp
-
 PROBLEM=permutation
 CASES=$(patsubst %.in,%.out,$(wildcard *.in))
 
